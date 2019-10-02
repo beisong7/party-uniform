@@ -68,7 +68,8 @@
 
 .modal-spinner{
     min-height: 45px !important;
-}.blocker {
+}
+.blocker {
      z-index: 10 !important;
  }
 .modal{
