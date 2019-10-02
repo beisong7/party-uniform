@@ -1,0 +1,4 @@
+.btn-primary:hover{
+    background: var(--purple2) !important;
+    border-color: var(--purple2) !important;
+}

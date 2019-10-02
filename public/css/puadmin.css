@@ -1,0 +1,35 @@
+.logo{
+    width: 150px;
+}
+body{
+    /*background-color: #ededed;*/
+    /*background: rgb(251,212,212);*/
+    background: linear-gradient(153deg, rgb(240, 29, 176) 0%, rgb(201, 24, 151) 54%, rgb(240, 29, 176) 98%);
+    height: 100vh;
+}
+.btn-primary:hover{
+    background-color: #f3867f;
+    border: 1px solid #f3867f;
+}
+.btn-primary{
+
+    background-color: #F3A4A5;
+    border: 1px solid #F3A4A5;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #F3A4A5;
+}
+.btn-link{
+    color: #F3A4A5;
+}
+.btn-link:hover{
+    color: #f3867f;
+}
+
+.vector{
+    border-radius: 0px;
+}
+
+.dc-text{
+    color: #f3867f;
+}
