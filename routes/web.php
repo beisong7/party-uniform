@@ -24,6 +24,9 @@ Route::post('/cms-admin/signin', 'AuthController@signin')->name('signin');
 Route::get('/cms-admin/signout', 'AuthController@signout')->name('app.logout');
 
 
+Route::get('/public', function (){return redirect()->route('home');});
+Route::get('/index.php', function (){return redirect()->route('home');});
+
 
 //todo ADMIN ROUTE
 Route::group(['prefix' => 'cms-admin', 'middleware'=> 'admin'], function(){
